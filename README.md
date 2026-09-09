@@ -1,28 +1,21 @@
-# Biel Play — Reconstrução final
+# Biel Play — versão cacheproof
 
-Versão reconstruída com a direção visual aprovada e execução web corrigida.
+Esta versão corrige o risco de HTML novo carregar CSS/JS antigo em cache.
 
-## O que mudou
-- Hero desktop e mobile separados.
-- Mobile não comprime mais a arte desktop.
-- O CTA flutuante só aparece depois do hero.
-- Posters foram separados em assets individuais.
-- Textos comerciais ficam no HTML, não dentro de grandes banners.
-- Seção redundante de “site responsivo” removida.
-- Imagens internas recortadas para funcionar como assets de produto.
-- Layout otimizado para desktop, tablet e mobile.
-- WhatsApp e parâmetros UTM preservados.
+## Diferenças
+- CSS e JavaScript ficam embutidos no `index.html`.
+- Assets têm nomes versionados novos.
+- Nenhuma seção depende de JavaScript para ficar visível.
+- O botão flutuante só é habilitado após sair do hero.
+- Sem dependência de Google Fonts.
 
-## Publicar no GitHub Pages
-Substitua na raiz do repositório:
-- index.html
-- styles.css
-- script.js
-- robots.txt
-- .nojekyll
-- pasta assets/
+## Upload
+Apague/substitua o conteúdo antigo da raiz e envie:
+- `index.html`
+- `robots.txt`
+- `.nojekyll`
+- pasta `assets/`
 
-Depois faça commit na branch usada pelo GitHub Pages.
+`styles.css` e `script.js` NÃO são necessários nesta versão.
 
-## WhatsApp
-Número: 5518991721536
+Build marker: 2026-09-09-cacheproof-1
