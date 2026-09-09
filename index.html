@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Biel Play — Entretenimento sem limites</title>
+  <meta name="description" content="Filmes, séries, esportes, canais ao vivo e conteúdo para toda a família. Solicite um teste grátis de 4 horas pelo WhatsApp.">
+  <meta name="theme-color" content="#030914">
+  <meta name="robots" content="index,follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Biel Play — Entretenimento sem limites">
+  <meta property="og:description" content="Todo mundo encontra algo para assistir. Solicite seu teste grátis de 4 horas.">
+  <meta property="og:image" content="assets/hero-desktop.webp">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Ir para o conteúdo</a>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Biel Play, início">
+        <span>BIEL <b>PLAY</b></span><i aria-hidden="true"></i>
+      </a>
+
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#conteudo">Conteúdo</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#dispositivos">Dispositivos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+
+      <a class="header-cta js-wpp" data-cta="header" href="#" target="_blank" rel="noopener">Testar grátis</a>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Menu mobile" hidden>
+      <a href="#conteudo">Conteúdo</a>
+      <a href="#beneficios">Benefícios</a>
+      <a href="#dispositivos">Dispositivos</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#faq">Dúvidas</a>
+      <a class="mobile-cta js-wpp" data-cta="mobile_menu" href="#" target="_blank" rel="noopener">Teste grátis por 4 horas</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <picture class="hero-picture" aria-hidden="true">
+        <source media="(max-width: 720px)" srcset="assets/hero-mobile.webp">
+        <img src="assets/hero-desktop.webp" alt="" width="1672" height="941" fetchpriority="high" decoding="async">
+      </picture>
+      <div class="hero-mask" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow">ENTRETENIMENTO SEM LIMITES</p>
+          <h1>Todo mundo<br>encontra algo<br><em>para assistir.</em></h1>
+          <p class="hero-lead">Filmes, séries, esportes, canais ao vivo e conteúdo para toda a família em uma experiência feita para a sua tela.</p>
+
+          <a class="button button-whatsapp button-large js-wpp" data-cta="hero" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.46 15.06L2 22l5.1-1.5A9.98 9.98 0 1 0 12 2Zm0 18.15a8.04 8.04 0 0 1-4.1-1.12l-.3-.18-3.03.89.91-2.95-.2-.31A8.12 8.12 0 1 1 12 20.15Zm4.46-6.08c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.43-.59 1.63-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/></svg>
+            Testar grátis por 4 horas
+          </a>
+
+          <div class="hero-meta">
+            <span class="check" aria-hidden="true">✓</span>
+            <span>Experimente antes de decidir.</span>
+            <a href="#conteudo">Ver o que você encontra ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="section section-content" id="conteudo">
+      <div class="container">
+        <header class="section-title reveal">
+          <p class="eyebrow">CONTEÚDO PARA TODOS OS MOMENTOS</p>
+          <h2>Uma tela.<br><em>Mil possibilidades.</em></h2>
+          <p>Escolha o que combina com você. O conteúdo aparece como parte da experiência — sem transformar o site em um catálogo poluído.</p>
+        </header>
+
+        <div class="poster-track reveal" aria-label="Categorias Biel Play">
+          <article class="poster-card">
+            <img src="assets/posters/filmes.webp" alt="" width="289" height="353" loading="lazy" decoding="async">
+            <div class="poster-gradient"></div>
+            <div class="poster-copy"><span>01</span><h3>Filmes</h3><p>Ação, aventura, suspense e muito mais.</p></div>
+          </article>
+
+          <article class="poster-card">
+            <img src="assets/posters/series.webp" alt="" width="283" height="353" loading="lazy" decoding="async">
+            <div class="poster-gradient"></div>
+            <div class="poster-copy"><span>02</span><h3>Séries</h3><p>Histórias para continuar assistindo.</p></div>
+          </article>
+
+          <article class="poster-card">
+            <img src="assets/posters/esportes.webp" alt="" width="284" height="353" loading="lazy" decoding="async">
+            <div class="poster-gradient"></div>
+            <div class="poster-copy"><span>03</span><h3>Esportes</h3><p>Emoção e grandes eventos na sua tela.</p></div>
+          </article>
+
+          <article class="poster-card">
+            <img src="assets/posters/ao-vivo.webp" alt="" width="285" height="353" loading="lazy" decoding="async">
+            <div class="poster-gradient"></div>
+            <div class="poster-copy"><span>04</span><h3>Ao vivo</h3><p>Canais, notícias, programas e eventos.</p></div>
+          </article>
+
+          <article class="poster-card">
+            <img src="assets/posters/infantil.webp" alt="" width="293" height="353" loading="lazy" decoding="async">
+            <div class="poster-gradient"></div>
+            <div class="poster-copy"><span>05</span><h3>Infantil</h3><p>Diversão para os momentos em família.</p></div>
+          </article>
+        </div>
+
+        <div class="section-action reveal">
+          <a class="text-cta js-wpp" data-cta="content" href="#" target="_blank" rel="noopener">Quero experimentar a Biel Play <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section experience" id="beneficios">
+      <div class="container experience-grid">
+        <div class="experience-media reveal">
+          <img src="assets/quality-clean.webp" alt="Sala moderna com a interface Biel Play em uma televisão" width="875" height="645" loading="lazy" decoding="async">
+        </div>
+
+        <div class="experience-copy reveal">
+          <p class="eyebrow">A EXPERIÊNCIA</p>
+          <h2>Qualidade para<br><em>aproveitar cada cena.</em></h2>
+          <p class="lead">Menos distração, mais entretenimento. A proposta visual é simples: conteúdo em primeiro plano e acesso direto quando você quiser assistir.</p>
+
+          <div class="benefit-list">
+            <article>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="13" rx="1.5"/><path d="M8 21h8M12 17.5V21"/></svg>
+              <div><h3>Qualidade de imagem</h3><p>Alta definição em equipamentos e conteúdos compatíveis.</p></div>
+            </article>
+            <article>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="13" height="9" rx="1.3"/><rect x="17" y="8" width="5" height="10" rx="1"/><path d="M6 18h5M8.5 14v4"/></svg>
+              <div><h3>Multi-dispositivos</h3><p>TV, celular, computador e outros dispositivos compatíveis.</p></div>
+            </article>
+            <article>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13a8 8 0 0 1 16 0v5h-4v-6h4M4 12v6H0v-5a8 8 0 0 1 4-1ZM16 18c0 2-1.8 3-4 3"/></svg>
+              <div><h3>Suporte direto</h3><p>Atendimento pelo WhatsApp para orientar quando você precisar.</p></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVICES -->
+    <section class="section devices" id="dispositivos">
+      <div class="container devices-grid">
+        <div class="devices-copy reveal">
+          <p class="eyebrow">ASSISTA ONDE QUISER</p>
+          <h2>Da TV da sala<br><em>até o seu celular.</em></h2>
+          <p class="lead">A experiência acompanha você em diferentes telas. Informe seu dispositivo no atendimento e receba a orientação adequada.</p>
+
+          <div class="device-list" aria-label="Dispositivos compatíveis">
+            <span>Smart TV</span><span>Celular</span><span>Computador</span><span>TV Box</span><span>Fire TV Stick</span>
+          </div>
+
+          <a class="button button-outline js-wpp" data-cta="devices" href="#" target="_blank" rel="noopener">Solicitar meu teste</a>
+        </div>
+
+        <div class="devices-media reveal">
+          <img src="assets/devices-clean.webp" alt="Biel Play em televisão, notebook, tablet, celular e dispositivos de streaming" width="1125" height="695" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- TRIAL -->
+    <section class="trial" id="teste">
+      <div class="container trial-grid">
+        <div class="trial-big reveal" aria-hidden="true">04H</div>
+        <div class="trial-copy reveal">
+          <p class="eyebrow">TESTE GRÁTIS</p>
+          <h2>Quatro horas<br>para você conhecer.</h2>
+          <p>Experimente a Biel Play antes de decidir.</p>
+        </div>
+        <div class="trial-action reveal">
+          <a class="button button-whatsapp button-large js-wpp" data-cta="trial" href="#" target="_blank" rel="noopener">Testar agora pelo WhatsApp</a>
+          <strong>(18) 99172-1536</strong>
+          <small>Fale diretamente com a equipe.</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEPS -->
+    <section class="section steps" id="como-funciona">
+      <div class="container">
+        <header class="section-title section-title-center reveal">
+          <p class="eyebrow">COMO FUNCIONA</p>
+          <h2>É simples e rápido.</h2>
+        </header>
+
+        <div class="steps-line reveal">
+          <article><span>01</span><div><h3>Chame</h3><p>Fale conosco pelo WhatsApp.</p></div></article>
+          <article><span>02</span><div><h3>Informe</h3><p>Diga em qual dispositivo pretende assistir.</p></div></article>
+          <article><span>03</span><div><h3>Experimente</h3><p>Receba as orientações para iniciar seu teste.</p></div></article>
+        </div>
+
+        <div class="section-action reveal">
+          <a class="text-cta js-wpp" data-cta="steps" href="#" target="_blank" rel="noopener">Começar meu teste <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-intro reveal">
+          <p class="eyebrow">DÚVIDAS FREQUENTES</p>
+          <h2>Ficou com<br><em>alguma dúvida?</em></h2>
+          <p class="lead">As respostas essenciais antes do primeiro teste.</p>
+          <a class="text-cta js-wpp" data-cta="faq" href="#" target="_blank" rel="noopener">Perguntar no WhatsApp <span>→</span></a>
+        </div>
+
+        <div class="faq-items reveal">
+          <details><summary>Quanto tempo dura o teste?<span>+</span></summary><p>O teste promocional é de até 4 horas, sujeito à disponibilidade no momento do atendimento.</p></details>
+          <details><summary>Em quais dispositivos funciona?<span>+</span></summary><p>Smart TV, celular, computador, TV Box e Fire TV Stick podem ser utilizados conforme a compatibilidade do aparelho e do aplicativo indicado.</p></details>
+          <details><summary>Como recebo as orientações de acesso?<span>+</span></summary><p>Chame pelo WhatsApp, informe seu dispositivo e a equipe orientará os próximos passos para o teste.</p></details>
+          <details><summary>Preciso de internet rápida?<span>+</span></summary><p>Uma conexão estável melhora a experiência. A velocidade necessária varia conforme resolução, dispositivo e rede utilizada.</p></details>
+          <details><summary>Como funciona o suporte?<span>+</span></summary><p>O atendimento é feito diretamente pelo WhatsApp no número (18) 99172-1536.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final">
+      <div class="container final-inner reveal">
+        <div>
+          <p class="eyebrow">BIEL PLAY</p>
+          <h2>Seu próximo momento<br>de entretenimento começa aqui.</h2>
+        </div>
+        <div class="final-action">
+          <a class="button button-whatsapp button-large js-wpp" data-cta="final" href="#" target="_blank" rel="noopener">Quero meu teste grátis</a>
+          <span>(18) 99172-1536</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <a class="brand" href="#inicio"><span>BIEL <b>PLAY</b></span><i aria-hidden="true"></i></a>
+      <nav aria-label="Rodapé"><a href="#conteudo">Conteúdo</a><a href="#dispositivos">Dispositivos</a><a href="#como-funciona">Como funciona</a><a href="#faq">Dúvidas</a></nav>
+      <a class="footer-phone js-wpp" data-cta="footer" href="#" target="_blank" rel="noopener">(18) 99172-1536</a>
+    </div>
+    <div class="container footer-legal">
+      <p>© <span id="year"></span> Biel Play. Todos os direitos reservados.</p>
+      <p>Disponibilidade, catálogo, aplicativos e recursos podem variar. Utilize serviços e conteúdos de acordo com os direitos e licenças aplicáveis.</p>
+    </div>
+  </footer>
+
+  <a class="floating-wpp js-wpp" id="floatingWpp" data-cta="floating" href="#" target="_blank" rel="noopener" aria-label="Solicitar teste grátis pelo WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a9.9 9.9 0 0 0-8.46 15.06L2 22l5.1-1.5A9.98 9.98 0 1 0 12 2Zm0 18.15a8.04 8.04 0 0 1-4.1-1.12l-.3-.18-3.03.89.91-2.95-.2-.31A8.12 8.12 0 1 1 12 20.15Zm4.46-6.08c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.43-1.34-1.67-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.43-.59 1.63-1.16.2-.57.2-1.06.14-1.16-.06-.1-.22-.16-.46-.28Z"/></svg>
+    <span>Teste grátis</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
