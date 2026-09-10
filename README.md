@@ -1,21 +1,17 @@
-# Biel Play — versão cacheproof
+# Biel Play — Mobile V2 corrigido
 
-Esta versão corrige o risco de HTML novo carregar CSS/JS antigo em cache.
+Build: `2026-09-09-mobile-v2`
 
-## Diferenças
-- CSS e JavaScript ficam embutidos no `index.html`.
-- Assets têm nomes versionados novos.
-- Nenhuma seção depende de JavaScript para ficar visível.
-- O botão flutuante só é habilitado após sair do hero.
-- Sem dependência de Google Fonts.
+Correções:
+- Hero mobile redesenhado: imagem real no topo + copy abaixo.
+- Sem grande área preta vazia.
+- Headline reduzida para 40–48px no celular.
+- Overflow horizontal corrigido em grids e seção de dispositivos.
+- Posters mantidos como carrossel com scroll-snap.
+- Imagens internas com proporções controladas no mobile.
+- CTA WhatsApp flutuante continua escondido durante o hero.
+- Safe-area do iPhone respeitada.
+- CSS e JS continuam embutidos no `index.html` (cacheproof).
 
-## Upload
-Apague/substitua o conteúdo antigo da raiz e envie:
-- `index.html`
-- `robots.txt`
-- `.nojekyll`
-- pasta `assets/`
-
-`styles.css` e `script.js` NÃO são necessários nesta versão.
-
-Build marker: 2026-09-09-cacheproof-1
+Para GitHub Pages:
+substitua o `index.html`, `.nojekyll`, `robots.txt` e a pasta `assets/`.
